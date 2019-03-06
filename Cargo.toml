@@ -1,0 +1,11 @@
+[package]
+name = "bigu"
+version = "0.1.0"
+edition = "2018"
+
+[dependencies]
+num = "0.2"
+
+[[bin]]
+name = "bigu"
+path = "bigu.rs"
