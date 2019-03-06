@@ -1,5 +1,3 @@
-extern crate num;
-
 use num::BigUint;
 
 fn main() {
