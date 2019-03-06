@@ -1,8 +1,13 @@
-fn main() {
-    let mut b: num::BigUint = 1u32.into();
+// https://www.reddit.com/r/rust/comments/axxy73/very_new_to_rust_wanted_to_test_it_got_bitten/ehwtj1l/
 
-    for i in 0u32..100_000 {
-        b += &b * i;
+use rug::{Assign, Integer};
+
+fn main() {
+    let mut b = Integer::new();
+    b.assign(1);
+
+    for i in 0..100_000 {
+        b += b.clone() * i;
     }
 
     println!("{}", b);
