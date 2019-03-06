@@ -2,17 +2,14 @@
 
 This is a response to a Reddit
 [thread](https://www.reddit.com/r/rust/comments/axxy73/very_new_to_rust_wanted_to_test_it_got_bitten/). It
-contains correct implementations of programs that print
-100000! to standard output in Rust, Python 3 and Nickle.
+contains correct implementations of programs that print a
+big number to standard output in Rust, Python 3 and Nickle.
 
 Current timings on my box:
 
-* `bigu.py`: 4.5s
-* `bigu.rs`: 7.8s
-* `bigu.5c`: 12.9s
-
-The Rust code currently gives a wrong answer, which is
-disturbing.
+* `bigu.py`: 6.0s
+* `bigu.rs`: 7.3s
+* `bigu.5c`: 38s
 
 ## License
 
