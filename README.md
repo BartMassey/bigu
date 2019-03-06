@@ -9,6 +9,7 @@ Current timings on my box:
 
 * `bigu.py`: 6.0s
 * `bigu.rs`: 7.3s
+* `bigu.rs` (branch `rug`): 1.5s
 * `bigu.5c`: 38s
 
 ## License
